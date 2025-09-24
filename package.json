@@ -1,0 +1,25 @@
+{
+  "name": "practica6",
+  "version": "1.0.0",
+  "description": "pruebas",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js",
+    "start:production": "dotenv -e .env.production node server.js",
+    "start:test": "dotenv -e .env.test node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.2",
+    "supertest": "^7.1.4"
+  }
+}
